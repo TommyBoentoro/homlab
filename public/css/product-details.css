@@ -1,0 +1,158 @@
+.image-wrapper{
+    width: 100%;
+    max-height: 600px;
+}
+
+.image-content{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details-container{
+    padding-left: 102px;
+}
+
+.product-details-text-title{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.pd-line{
+    height: 1px;
+    width: 136px;
+    background-color: #FE5C36;
+}
+
+.pd-text-subtitle{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pd-text-title{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.pd-text-body{
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.pd-button-primary{
+    font-size: 13px;
+    font-weight: 500;
+    color: #FE5C36;
+    background-color: white;
+    border-radius: 100px;
+    padding: 20px 40px;
+    border: 1px solid #FE5C36;
+    text-decoration: none;
+}
+
+.pd-button-secondary{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color: #FE5C36;
+    border-radius: 100px;
+    padding: 20px 40px;
+    border: 1px solid #FE5C36;
+    text-decoration: none;
+}
+
+.pd-text-poetry{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.pd-container-poetry{
+    width: 80%;
+    text-align: center;
+}
+
+.font-product-title{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-text-product{
+    width: 80%;
+}
+
+.font-product-body{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* bottom-container */
+.pd-main-container{
+    width: 100%;
+    background-color: #2C3F2C;
+    padding: 120px 0px;
+}
+
+.pd-text-h1{
+    font-size: 53px;
+    font-weight: 400;
+}
+
+.pd-container-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* width: 800px;
+    height: 600px; */
+}
+
+.pd-container-wrapper img{
+    min-width: 100%;
+    min-height: 100%
+}
+
+.pd-container-absolute-left{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.pd-text-reading-left{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.pd-container-absolute-right{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.pd-text-reading-right{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.pd-image-wrapper-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pd-image-wrapper-right img{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+}

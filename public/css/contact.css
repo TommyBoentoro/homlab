@@ -1,0 +1,99 @@
+.text-contact{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact-title-text{
+    font-size: 53px;
+    font-weight: 400;
+}
+
+.contact-line{
+    width: 182px;
+    height: 1px;
+    background-color: #FE5C36;
+}
+
+.main-container{
+    display: flex;
+    height: 429px;
+    width: 100%;
+    margin-top: 110px;
+    margin-bottom: 200px;
+}
+
+.image-wrapper{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* img{
+    object-fit: cover;
+    width: 100%;
+} */
+
+.image-contact{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 84px;
+}
+
+.body-wrapper-container{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.text-body{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Email Section */
+
+.email-main-container{
+    width: 100%;
+    background-color: #2C3F2C;
+    padding: 102px 200px;
+}
+
+.find-us-container{
+    margin-top: 60px;
+    display: flex;
+}
+
+.text-body-email{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.line-input{
+    margin-top: 20px;
+    width: 100%;
+    opacity: 0.6;
+    height: 1px;
+    background-color: white;
+}
+
+.container-text-input{
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+    color: white;
+}
+
+.button-container{
+    border-radius: 100px !important;
+    padding: 10px 30px !important;
+}

@@ -1,0 +1,36 @@
+
+/* Utils Css */
+
+.color-primary{
+    color: #FE5C36;
+}
+
+.color-secondary{
+    color: #2C3F2C;
+}
+
+.color-white{
+    color: #FFF;
+}
+
+.font-subheading{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.font-body{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.font-mulish{
+    font-family: 'Mulish', sans-serif;
+}
+
+.font-asul{
+    font-family: 'Asul', sans-serif;
+}

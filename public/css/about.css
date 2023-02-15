@@ -1,0 +1,34 @@
+.about-main-container{
+    margin-top: 120px;
+}
+
+.about-heading{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.about-subheading{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about-body-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.images-wrapper{
+    object-fit:cover;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-wrapper-bg-2{
+    height: 397px;
+    gap: 10px;
+    display: flex;
+}
