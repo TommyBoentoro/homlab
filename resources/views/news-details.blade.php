@@ -1,5 +1,50 @@
 @extends('layouts.main')
 <link rel="stylesheet" href="css/news-details.css">
+
+{{-- Image Bg --}}
+<div class="main-img-news-detail">
+    <div class="color-primary" style="width:100%">
+        <div style="height:100px;" class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-center align-items-center cursor-pointer">
+                <div class="me-2">
+                    PRODUCTS
+                </div>  
+                <div>
+                    <img src="images/leaf.png" alt="">
+                </div>
+            </div>
+            <div>
+                <img src="images/homlabLogo.png" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center cursor-pointer">
+                <div class="me-2">Menu</div>
+                <div>
+                    <img src="images/IconMenu.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="d-flex align-items-center main-container-news-details">
+        <div class="color-secondary col-6 d-flex flex-column align-items-end">
+            <div class="news-detail-title-jumbotron font-asul news-detail-inner-container-jumbotron">
+                Dreaming of The Perfect Art it Was Keeps Us Awake
+            </div>
+            <br>
+            <div class="about-heading font-mulish news-detail-inner-container-jumbotron" >
+                20 JANUARY 2022
+            </div>
+            <br>
+            <div class="about-subheading font-asul news-detail-inner-container-jumbotron">
+                Pellentesque sagittis hendrerit diam, eu hendrerit odio ultricies a. 
+                Curabitur tincidunt, sem et pretium consequat, massa ligula gravida ex, 
+                id dignissim quam risus et dolor
+            </div>
+        </div>
+        <div class="col-6 container-image-inner-jumbotron">
+            <img src="images/product-details/img-1.png" alt="">
+        </div>
+    </div>
+</div>
    
 @section('container')
     <div class="d-flex justify-content-center align-items-center background-container">

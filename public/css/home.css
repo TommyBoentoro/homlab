@@ -1,0 +1,111 @@
+.main-img{
+    background-image: url("../images/home-1.png") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.home-main-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.home-main-container img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.home-jumbotron-text{
+    position: absolute;
+    bottom: 40px;
+    left: 20vh;
+}
+
+.text-h1{
+    font-family: 'Asul';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 120%;
+    /* or 79px */
+
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+}
+
+.line-home{
+    width: 100%;
+    margin-top: -150px;
+    height: 3px;
+    background-color: #FE5C36;
+}
+
+.home-text-subtitle{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.home-text-title{
+    font-size: 53px;
+    font-weight: 400;
+}
+
+.line-home-body{
+    height: 1px;
+    background-color: #FE5C36; 
+    margin-top: 12px;
+    margin-right: 32px;
+}
+
+.home-text-body{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.line-home-body-2{
+    height: 1px;
+    width: 200px;
+    background-color: #FE5C36; 
+}
+
+.home-container-body-text{
+    width: 45%;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.font-product-title{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-text-product{
+    width: 80%;
+}
+
+.font-product-body{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.pd-button-primary{
+    font-size: 13px;
+    font-weight: 500;
+    color: #FE5C36;
+    background-color: white;
+    border-radius: 100px;
+    padding: 20px 40px;
+    border: 1px solid #FE5C36;
+    text-decoration: none;
+}
